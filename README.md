@@ -1,11 +1,10 @@
 A boilerplate that includes HTML5 BP, Grunt, and assemble IO for static sites.
 
 TODO:
-* Setup basic page for assemble test
-* Setup basic stylesheet and libSASS
-* Setup push to dist folder
+* Correct SASS tasks.
+* Keep docs from BP5 in place until we handle the defaults.
 
-STATE: Currently broken, file isn't being read into layout properly.
+STATE: Currently broken, file isn't being compiled.
 
 Files that are still using BP5 Defaults.
 * Server side files
