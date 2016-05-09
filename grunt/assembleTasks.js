@@ -1,12 +1,13 @@
 module.exports = function(grunt){
   grunt.config('assemble', {
     options: {
-      layoutdir: 'src/templates/layout/*.{hbs}',
-      partials: '[src/tempaltes/partials/*.{hbs}]'
+      flatten: 'true',
+      layoutdir: 'src/templates/layout/',
+      partials: ['src/tempaltes/partials/*.{hbs}']
     },
     site: {
       src: ['src/templates/pages/*.hbs'],
-      dest: ['./dist']
+      dest: './dist/'
     }
   }) // config
   grunt.loadNpmTasks('grunt-assemble');
