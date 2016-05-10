@@ -1,10 +1,11 @@
 A boilerplate that includes HTML5 BP, Grunt, and assemble IO for static sites.
 
 TODO:
-* Correct SASS tasks.
+* Setup concatenation tasks for vendor provided JS.
+* Setup test folder for test assets aside from templates.
 * Keep docs from BP5 in place until we handle the defaults.
 
-STATE: Currently broken, file isn't being compiled.
+STATE: Currently working.
 
 Files that are still using BP5 Defaults.
 * Server side files
