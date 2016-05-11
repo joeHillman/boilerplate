@@ -5,7 +5,7 @@ module.exports = function(grunt){
     }, //options
     dist: {
       files: {
-        'dist/css/main.css': 'src/scss/main.scss',
+        'dist/css/main.css': '<%= src.scss %>/main.scss',
       }
     }
   }) //config
