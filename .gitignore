@@ -1,6 +1,9 @@
 # Project
 /dist
 
+# Project - Override for other repos
+!data/
+
 # NPM
 /node_modules
 
