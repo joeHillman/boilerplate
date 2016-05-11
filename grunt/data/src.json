@@ -1,0 +1,14 @@
+{
+  "scss": "src/scss",
+  "js": "src/js",
+  "vendor": {
+    "css": "src/vendor/css",
+    "js": "src/vendor/js"
+  },
+  "assemble": {
+    "layout": "src/templates/layout",
+    "pages": "src/templates/pages",
+    "partials": "src/templates/partials",
+    "tests": "src/templates/tests"
+  }
+}

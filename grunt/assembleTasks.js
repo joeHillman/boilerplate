@@ -1,21 +1,21 @@
 module.exports = function(grunt){
   grunt.config('assemble', {
     options: {
-      layoutdir: 'src/templates/layout/',
-      partials: ['src/templates/partials/*.hbs']
+      layoutdir: '<%= src.assemble.layout %>',
+      partials: ['<%= src.assemble.partials %>/*.hbs']
     },
     tests: {
       options: {
         flatten: true
       },
-      src: ['src/templates/tests/*.hbs'],
+      src: ['<%= src.assemble.tests %>/*.hbs'],
       dest: './dist/tests/'
     },
     site: {
       options: {
         flatten: true
       },
-      src: ['src/templates/pages/*.hbs'],
+      src: ['<%= src.assemble.pages %>/*.hbs'],
       dest: './dist/'
     }
   }) // config
