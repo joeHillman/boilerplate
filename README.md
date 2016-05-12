@@ -1,8 +1,12 @@
 A boilerplate that includes HTML5 BP, Grunt, and assemble IO for static sites.
 
 TODO:
+* Setup watch task.
+* Further develop test/harness process.
 * Setup concatenation tasks for vendor provided JS.
-* Setup test folder for test assets aside from templates.
+* Move concatenated files to dist folder.
+* Setup relative path for JS in template.
+* Consider a JSON file for list of JS to concat.
 * Keep docs from BP5 in place until we handle the defaults.
 * Move learned stuff to elsewhere. Doesn't need to be here.
 
