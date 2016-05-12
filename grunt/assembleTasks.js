@@ -9,14 +9,14 @@ module.exports = function(grunt){
         flatten: true
       },
       src: ['<%= src.assemble.tests %>/*.hbs'],
-      dest: './dist/tests/'
+      dest: '<%= dest.assemble.tests %>/'
     },
     site: {
       options: {
         flatten: true
       },
       src: ['<%= src.assemble.pages %>/*.hbs'],
-      dest: './dist/'
+      dest: '<%= dest.assemble.pages %>/'
     }
   }) // config
   grunt.loadNpmTasks('grunt-assemble');
