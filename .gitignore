@@ -9,3 +9,6 @@
 
 # Webstorm
 /.idea
+
+# Files from PC
+us.stackdump

@@ -1,7 +1,6 @@
 A boilerplate that includes HTML5 BP, Grunt, and assemble IO for static sites.
 
 TODO:
-* Setup watch task.
 * Further develop test/harness process.
 * Setup concatenation tasks for vendor provided JS.
 * Move concatenated files to dist folder.
@@ -14,6 +13,7 @@ STATE: Currently working.
 LEARNED:
 * Grunt needs package files read in at the top level in grunt file not read in on individual task files.
 * Ignore global can be problematic.
+* When you hit an odd error, it could be a version issue.
 
 Files that are still using BP5 Defaults.
 * Server side files
