@@ -1,0 +1,7 @@
+{
+  "allStyles": ["src/**/**/*.scss"],
+  "butExcludeStyles": [
+    "!src/scss/_normalize.scss",
+    "!src/scss/main.scss"
+  ]
+}
