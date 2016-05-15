@@ -6,4 +6,5 @@ module.exports = function(grunt){
   });
   grunt.loadTasks('grunt');
   grunt.registerTask('buildAll', ['assembleAll', 'compileSass']);
+  grunt.registerTask('develop', ['devServer', 'watchAll'])
 }
