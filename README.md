@@ -1,7 +1,8 @@
 A boilerplate that includes HTML5 BP, Grunt, and assemble IO for static sites.
 
 TODO:
-* Further develop test/harness process.
+* Further develop assemble templates.
+* Setup a single component for style guide test.
 * Setup concatenation tasks for vendor provided JS.
 * Move concatenated files to dist folder.
 * Setup relative path for JS in template.
