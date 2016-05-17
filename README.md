@@ -2,6 +2,11 @@ A boilerplate that includes HTML5 BP, Grunt, and assemble IO for static sites.
 
 TODO:
 * Further develop assemble templates.
+* Use KSS-Node for styleguide. The JS error will require a current Node version and can be managed with NVM.
+* ``` npm install nvm ```
+* ``` nvm install [VERSION] ```
+* ``` nvm use [VERSION] ```
+* Grunt shell could be helpful here.
 * Setup a single component for style guide test.
 * Setup concatenation tasks for vendor provided JS.
 * Move concatenated files to dist folder.
