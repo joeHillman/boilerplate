@@ -8,7 +8,7 @@ TODO:
 * ``` nvm use [VERSION] ```
 * Grunt shell could be helpful here.
 * Setup a single component for style guide test.
-* Setup concatenation tasks for vendor provided JS.
+* Setup ordered file for vendor JS.
 * Move concatenated files to dist folder.
 * Setup relative path for JS in template.
 * Consider a JSON file for list of JS to concat.
