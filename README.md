@@ -1,13 +1,8 @@
 A boilerplate that includes HTML5 BP, Grunt, and assemble IO for static sites.
 
 TODO:
-* Further develop assemble templates.
-* Use KSS-Node for styleguide. The JS error will require a current Node version and can be managed with NVM.
-* ``` npm install nvm ```
-* ``` nvm install [VERSION] ```
-* ``` nvm use [VERSION] ```
+* Document CSS styleguide setup. Move existing styleguide components to sample styleguide section.
 * Grunt shell could be helpful here.
-* Setup a single component for style guide test.
 * Setup ordered file for vendor JS.
 * Move concatenated files to dist folder.
 * Setup relative path for JS in template.
@@ -20,6 +15,7 @@ LEARNED:
 * Grunt needs package files read in at the top level in grunt file not read in on individual task files.
 * Ignore global can be problematic.
 * When you hit an odd error, it could be a version issue.
+* Grunt issues with versions and peer dependencies.
 
 Files that are still using BP5 Defaults.
 * Server side files
