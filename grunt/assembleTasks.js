@@ -17,8 +17,16 @@ module.exports = function(grunt){
       },
       src: ['<%= src.assemble.pages %>/*.hbs'],
       dest: '<%= dest.assemble.pages %>/'
+    },
+    styleguideAssets: {
+      options: {
+        flatten: true
+      },
+      src: ['<%= src.assemble.styleguide %>/*.hbs'],
+      dest: '<%= dest.assemble.styleguide %>/'
     }
   }) // config
   grunt.loadNpmTasks('grunt-assemble');
   grunt.registerTask('assembleAll', 'assemble');
+  grunt.registerTask('assembleStyleguideAssets', 'assemble:styleguideAssets');
 }

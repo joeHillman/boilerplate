@@ -9,6 +9,7 @@
     "layout": "src/templates/layout",
     "pages": "src/templates/pages",
     "partials": "src/templates/partials",
-    "tests": "src/templates/tests"
+    "tests": "src/templates/tests",
+    "styleguide": "src/templates/components"
   }
 }
