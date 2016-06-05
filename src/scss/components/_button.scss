@@ -1,0 +1,79 @@
+/**
+ * @stylesheet button.scss Button Stylesheet Title
+ * @parent component 0
+ *
+ */
+
+ /**
+  * @styles basicButton Button Styles and Link Title
+  * Button styles description.
+  * @demo demos/button.html
+  *
+  */
+
+.btn {
+  font-family: "HelveticaNeue", "Helvetica Neue", Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  display: inline-block;
+  margin: 0;
+  font-weight: bold;
+  text-align: center;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  text-decoration: none;
+  padding: 5px 12px;
+  font-size: 14px;
+  line-height: 1.428571429;
+  border-radius: 4px;
+}
+
+.btn:hover,
+.btn:focus {
+  text-decoration: none;
+}
+
+.btn:active,
+.btn.active {
+  outline: 0;
+  background-image: none;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #4c9dca;
+  border-color: #3483af;
+}
+
+.btn-primary:hover {
+    color: #fff;
+}
+
+.btn-primary:hover,
+.btn-primary.hover,
+.btn-primary:focus,
+.btn-primary.focus,
+.btn-primary:active,
+.btn-primary.active {
+  background-color: #3689b7;
+  border-color: #3380ab;
+}
+
+.btn-primary.disabled.hover,
+.btn-primary.disabled:hover,
+.btn-primary.disabled:focus,
+.btn-primary.disabled.focus,
+.btn-primary.disabled:active,
+.btn-primary.disabled.active,
+.btn-primary[disabled].hover,
+.btn-primary[disabled]:hover,
+.btn-primary[disabled]:focus,
+.btn-primary[disabled].focus,
+.btn-primary[disabled]:active,
+.btn-primary[disabled].active {
+  background-color: #4c9dca;
+  border-color: #378cbb;
+}

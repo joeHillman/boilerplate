@@ -1,0 +1,9 @@
+{
+  "sites": {
+    "styles": {
+      "parent": "Home",
+      "glob": "src/scss/components/*.{md,scss}",
+      "dest": "dist/styleguide/styleguide"
+    }
+  }
+}
