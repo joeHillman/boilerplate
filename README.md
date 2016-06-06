@@ -12,7 +12,7 @@ TODO:
 
 STATE: Currently working.
 LEARNED:
-* Grunt needs package files read in at the top level in grunt file not read in on individual task files.
+* Grunt needs JSON files read in at the top level in grunt file not read in on individual task files.
 * Ignore global can be problematic.
 * When you hit an odd error, it could be a version issue.
 * Grunt issues with versions and peer dependencies.
