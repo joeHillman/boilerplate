@@ -1,0 +1,9 @@
+{
+  "css": "dist/css",
+  "js": "dist/js",
+  "assemble": {
+      "tests": "dist/tests",
+      "styleguide": "dist/styleguide/demos",
+      "pages": "dist"
+  }
+}
