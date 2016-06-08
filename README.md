@@ -1,6 +1,8 @@
 A boilerplate that includes HTML5 BP, Grunt, and assemble IO for static sites.
 
 TODO:
+* Setup concatenation tasks and build folder. We'll fish what we need out of the build folder.
+* Setup clean tasks after build folder.
 * Document CSS styleguide setup. Move existing styleguide components to sample styleguide section.
 * Grunt shell could be helpful here.
 * Setup ordered file for vendor JS.
@@ -9,6 +11,8 @@ TODO:
 * Consider a JSON file for list of JS to concat.
 * Keep docs from BP5 in place until we handle the defaults.
 * Move learned stuff to elsewhere. Doesn't need to be here.
+* Still need to figure out MAC/Win issues.
+* Take a look at editor config file. Not sure this is working.
 
 STATE: Currently working.
 LEARNED:
