@@ -1,5 +1,6 @@
 # Project
 /dist
+/build
 
 # Project - Override for other repos
 !data/
