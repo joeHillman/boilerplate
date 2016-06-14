@@ -1,13 +1,13 @@
 {
-  "css": "dist/css",
-  "js": "dist/js",
   "assemble": {
       "tests": "dist/tests",
       "styleguide": "dist/styleguide/demos",
       "pages": "dist"
   },
   "build": {
-      "css": "build/styles",
+      "css": "build/css",
       "js": "build/scripts"
-  }
+  },
+  "css": "dist/css",
+  "js": "dist/js"
 }
