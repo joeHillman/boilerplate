@@ -1,8 +1,6 @@
 A boilerplate that includes HTML5 BP, Grunt, and assemble IO for static sites.
 
 TODO:
-* Build and minify tasks setup. Still need to be tested.
-* Assemble will need to be updated with the new file name.
 * Setup clean tasks after build folder.
 * Document CSS styleguide setup. Move existing styleguide components to sample styleguide section.
 * Grunt shell could be helpful here.
