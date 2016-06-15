@@ -2,6 +2,9 @@ A boilerplate that includes HTML5 BP, Grunt, and assemble IO for static sites.
 
 TODO:
 * Setup clean tasks after build folder.
+* Clean tasks not working on nested targets.
+* Update task list.
+* Setup linter on staged files.
 * Document CSS styleguide setup. Move existing styleguide components to sample styleguide section.
 * Grunt shell could be helpful here.
 * Setup ordered file for vendor JS.
@@ -13,7 +16,7 @@ TODO:
 * Still need to figure out MAC/Win issues.
 * Take a look at editor config file. Not sure this is working.
 
-STATE: Currently broken. CSS filename needs to be updated in assemble partial.
+STATE: Currently working.
 LEARNED:
 * Grunt needs JSON files read in at the top level in grunt file not read in on individual task files.
 * Ignore global can be problematic.
