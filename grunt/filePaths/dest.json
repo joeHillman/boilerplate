@@ -8,6 +8,9 @@
       "css": "build/css",
       "js": "build/scripts"
   },
-  "css": "dist/css",
-  "js": "dist/js"
+  "dist": {
+    "css": "dist/css",
+    "js": "dist/js",
+    "tests": "dist/tests"
+  }
 }
