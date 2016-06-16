@@ -13,7 +13,9 @@ module.exports = function(grunt){
           'concatAll': 'Concatenates multiple sets of files.',
           'assembleAll': 'Assembles static assets for tests, sites, and styleguide assets.',
           'assembleStyleguideAssets': 'Assembles any markup necessary for the documentCSS demos.',
-          'documentjs': 'Run as is from the root WITHOUT Grunt, to assemble the styleguide.'
+          'documentjs': 'Run as is from the root WITHOUT Grunt, to assemble the styleguide.',
+          'cleanBuild': 'Deletes build directory.',
+          'minifyStyles': 'Minifies CSS files. Saves to build/css.'
         }
       }
     }

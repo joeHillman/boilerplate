@@ -1,7 +1,7 @@
 module.exports = function(grunt){
   grunt.config('clean', {
-    build: ['build/']
+    build: ['<%= dest.build.directory %>/']
   }) //config
   grunt.loadNpmTasks('grunt-contrib-clean');
-  grunt.registerTask('cleanBuild', 'clean:build:css')
+  grunt.registerTask('cleanBuild', 'clean:build')
 }
