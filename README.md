@@ -4,8 +4,8 @@ TODO:
 * Setup package tasks for dist folder.
 * Setup clean tasks for dist folder.
 * Clean tasks not working on nested targets.
-* Setup linter on staged files.
 * Document CSS styleguide setup. Move existing styleguide components to sample styleguide section.
+* Test styleguide against style lint disable hook.
 * Grunt shell could be helpful here.
 * Setup ordered file for vendor JS.
 * Move concatenated files to dist folder.
