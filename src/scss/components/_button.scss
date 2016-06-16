@@ -1,3 +1,4 @@
+/* stylelint-disable */
 /**
  * @stylesheet button.scss Button Stylesheet Title
  * @parent component 0
@@ -10,6 +11,7 @@
   * @demo demos/button.html
   *
   */
+/* stylelint-enable */
 
 .btn {
   font-family: "HelveticaNeue", "Helvetica Neue", Arial, Helvetica, sans-serif;
@@ -49,7 +51,7 @@
 }
 
 .btn-primary:hover {
-    color: #fff;
+  color: #fff;
 }
 
 .btn-primary:hover,

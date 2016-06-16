@@ -1,9 +1,9 @@
 A boilerplate that includes HTML5 BP, Grunt, and assemble IO for static sites.
 
 TODO:
-* Setup clean tasks after build folder.
+* Setup package tasks for dist folder.
+* Setup clean tasks for dist folder.
 * Clean tasks not working on nested targets.
-* Update task list.
 * Setup linter on staged files.
 * Document CSS styleguide setup. Move existing styleguide components to sample styleguide section.
 * Grunt shell could be helpful here.
