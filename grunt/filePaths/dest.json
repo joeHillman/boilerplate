@@ -5,10 +5,12 @@
       "pages": "dist"
   },
   "build": {
+      "directory": "build",
       "css": "build/css",
       "js": "build/scripts"
   },
   "dist": {
+    "directory": "dist",
     "css": "dist/css",
     "js": "dist/js",
     "tests": "dist/tests"
