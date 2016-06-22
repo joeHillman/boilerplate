@@ -28,5 +28,7 @@
   "lint-staged": {
     "stylelint on staged files": "*.scss"
   },
-  "pre-commit": ["lint-staged"]
+  "pre-commit": [
+    "lint-staged"
+  ]
 }

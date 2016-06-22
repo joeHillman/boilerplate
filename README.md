@@ -1,6 +1,8 @@
 A boilerplate that includes HTML5 BP, Grunt, and assemble IO for static sites.
 
 TODO:
+* Split out print styles from BP5, we want a partial structure for all our styles.
+* Find a better home for IE partials.
 * Setup package tasks for dist folder.
 * Setup clean tasks for dist folder.
 * Clean tasks not working on nested targets.
