@@ -1,13 +1,12 @@
 A boilerplate that includes HTML5 BP, Grunt, and assemble IO for static sites.
 
 TODO:
-* Split out print styles from BP5, we want a partial structure for all our styles.
+* Consider Metalsmith for the rendering tool instead of assemble.
 * Find a better home for IE partials.
 * Setup package tasks for dist folder.
 * Setup clean tasks for dist folder.
 * Clean tasks not working on nested targets.
 * Document CSS styleguide setup. Move existing styleguide components to sample styleguide section.
-* Test styleguide against style lint disable hook.
 * Grunt shell could be helpful here.
 * Setup ordered file for vendor JS.
 * Move concatenated files to dist folder.
